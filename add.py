@@ -1,6 +1,7 @@
-a=10
-b=30
-c=40
-d=1000
-e=a+b*c-d 
-print("result",e) 
+a=10 #the first value 
+b=30 #the second value 
+c=40 #the third value 
+#calculation 
+d=a+b+c 
+#result 
+print("result",d)

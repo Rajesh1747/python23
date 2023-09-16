@@ -1,4 +1,6 @@
-a=10 
-b=26 
+a=10 #thr first value 
+b=26 #the second value 
+#calculation 
 c=a-b 
-print("the")
+#result 
+print("result",c)
