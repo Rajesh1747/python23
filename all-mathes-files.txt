@@ -1,9 +1,0 @@
-a=10
-b=20
-c=30
-d=40
-
-add=a+b
-sub=b-c 
-mul=c*a  
-
