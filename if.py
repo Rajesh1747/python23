@@ -1,8 +1,8 @@
-telugu= float (input("the telugu subject marks"))
-hindi=float (input("the hindi subject marks"))
-english=float (input("the english subject marks"))
-social=float (input("the social subject marks"))
-science=float (input("the science subject marks"))
+telugu=int (input("the telugu subject marks"))
+hindi=int (input("the hindi subject marks"))
+english=int (input("the english subject marks"))
+social=int (input("the social subject marks"))
+science=int (input("the science subject marks"))
 
 print("/n telugu subjects marks",telugu)
 print("/n hindi subjects marks",hindi)

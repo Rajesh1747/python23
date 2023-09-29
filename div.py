@@ -1,6 +1,5 @@
-a=20 # the first value 
-b=40 # the second value 
-#calculation
-c=a/b 
-# result part 
-print("value",c)
+a = float(input("Enter a number"))
+b = float(input("Enter another number"))
+ 
+sum = a + b
+print("sum of {0} and {1} is {2}",sum)
