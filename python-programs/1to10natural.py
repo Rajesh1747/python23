@@ -1,2 +1,2 @@
-for index in range(50 , 100):
+for index in range(1 , 20):
     print("/n The natural number : ",index+1)
