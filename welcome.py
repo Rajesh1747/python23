@@ -14,7 +14,7 @@ else:
             if(age < 40):
                 print("middle")
             else:
-                if(age > 60):
+                if(age > 50):
                     print("oldage")
                     
             

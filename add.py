@@ -1,18 +1,8 @@
-child = int (input("Enter your child age here "))
-adult = int (input("Enter your adult age here "))
-middle = int (input("Enter your middle age here "))
-oldage = int (input("Enter your oldage here "))
-print("The child age",child)
-print("The adult age",adult)
-print("The middle age",middle)
-print("The older age",oldage)
-if(child<10 and adult<18 and middle<28 and oldage<50):
-    print("The child age",child)
-    print("The adult age",adult)
-    print("The middle age",middle)
-    print("The older age",oldage)
-if(child>10 and adult>18 and middle>28 and oldage>50):
-    print("The child age",child)
-    print("The adult age",adult)
-    print("The middle age",middle)
-    print("The older age",oldage)
+x = int(input("Enter a value : "))
+y = int(input("Enter a value : "))
+if (x < y):
+    print("x is smaller than y ")
+elif (x == y):
+    print("x is equal to y ")
+else:
+    print("x is greater than y ")  
