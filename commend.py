@@ -4,14 +4,14 @@ while True:
     if name.lower()=='quit':
         break
 
-print("\n odd number :\n");   
-for number in range(100):
+print("\n odd number :\n")
+for number in range(10):
     if number%2==0:
         continue
     print(number)
     
 print("\n Even number :\n")
-for number in range(100):
+for number in range(10):
     if number%2:
         continue
     print(number)
