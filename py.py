@@ -1,6 +1,7 @@
-#string Length by len Function 
-str=input("Enter the name : ")
-print(str[1])
-print(str[3])
-print(str[4])
-print(str[2])
+#ternary operator 
+age=input("\n Enter your age :")
+if int(age)>=18:
+    ticket_price=40
+else:
+    ticket_price=20
+    print(f"The ticket pricr is {ticket_price}")
