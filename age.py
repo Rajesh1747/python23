@@ -1,31 +1,12 @@
-child = int (input("Enter your child age here "))
-adult = int (input("Enter your adult age here "))
-middle = int (input("Enter your middle age here "))
-oldage = int (input("Enter your oldage here "))
-print("The child age",child)
-print("The adult age",adult)
-print("The middle age",middle)
-print("The older age",oldage)
-if(child<10):
-    print("The child age",child)
+age = int (input("Enter your age here "))
+if(age<10):
+    print("The child age",age)
 else:
-    if(adult<18):
-        print("The adult age",adult)
+    if(age<18):
+        print("The adult age",age)
     else:
-        if(middle<27):
-            print("The middle age",middle)
+        if(age<27):
+            print("The middle age",age)
         else:
-            if(oldage<50):
-                print("The older age",oldage)
-if(child>10):
-    print("The child age",child)
-else:
-    if(adult>18):
-        print("The adult age",adult)
-    else:
-        if(middle>27):
-            print("The middle age",middle)
-        else:
-            if(oldage>50):
-                print("The older age",oldage)
-
+            if(age<50):
+                print("The older age",age)

@@ -1,6 +1,7 @@
-a=10 # the first value 
-b=20 # the second value 
-# calculation 
-c=a*b 
-# result 
-print ("the value",c)
+import calendar
+year=int(input("/n Enter year : "))
+isLeap=calendar.isleap(year)
+if isLeap:
+    print("/n Given year is Leap year : ",year)
+else:
+    print("/n Given yera is notleap year :",year)

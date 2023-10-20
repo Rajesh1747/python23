@@ -1,7 +1,5 @@
-a=10 # the first value
-b=20 # the second value
-c=30 # the third value
-#calculation part
-d=a+b+c
-# result part 
-print("sum of the three results are ",d)
+#To find given String length
+str="Clpud Gensoftech"
+str_len=len(str)
+print(" Given Cloud GEnsoftech String length is ",str_len)
+print("\n\n\n\n\n");

@@ -1,6 +1,6 @@
-a=10 #thr first value 
-b=26 #the second value 
-#calculation 
-c=a-b 
-#result 
-print("result",c)
+#Enter the input value
+start=int(input("Enter the number : "))
+for i in range(1,start+1):
+    print("\n The multipliction table of %d\n" %(i))
+    for j in range(1,11):
+        print(i , '*', j, "=" , i*j)
