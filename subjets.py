@@ -1,5 +1,5 @@
-a = float(input("Enter a number"))
-b = float(input("Enter another number"))
+a = float(input("Enter the number"))
+b = float(input("Enter the number"))
  
 sum = a + b
 print("sum of the value",sum)
